@@ -1,0 +1,26 @@
+h3 {
+  margin-top: 50px;
+}
+
+.container-soft-skills {
+  border: 1px solid #8a9198;
+  border-radius: 8px;
+  padding: 30px;
+  max-width: 800px;
+}
+
+.btn-skills {
+  margin: 10px;
+}
+
+.btn-selecionada{
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.btn-nao-selecionada{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+}

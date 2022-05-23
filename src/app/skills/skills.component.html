@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h3>SOFT SKILLS</h3>
+      <div class="container-soft-skills">
+        <button
+          type="button"
+          *ngFor="let softSkill of arraySoftSkills"
+          class="btn btn-skills {{this.getSoftSkillStyle(softSkill.id)}}"
+          (click)="this.onClickSoftSkill(softSkill.id)"
+        >
+          {{ softSkill.descricao }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h3>HARD SKILLS</h3>
+      <div class="container-soft-skills">
+        <button
+          type="button"
+          *ngFor="let hardSkill of arrayHardSkills"
+          class="btn btn-skills {{this.getHardSkillStyle(hardSkill.id)}}"
+          (click)="this.onClickHardSkill(hardSkill.id)"
+        >
+          {{ hardSkill.descricao }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
